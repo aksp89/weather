@@ -1,0 +1,10 @@
+{
+  "hosting": {
+    "public": "dist/angular-pos",
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**"
+    ]
+  }
+}
