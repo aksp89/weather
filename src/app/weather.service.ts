@@ -11,6 +11,6 @@ apiKey = "081383be5359030143d3c179dba4b32f";
 
   getWeather(location) {
 return this.http.get(
-  `http://api.weatherstack.com/current?access_key=${this.apiKey}&query=${location}`);
+  `https://api.weatherstack.com/current?access_key=${this.apiKey}&query=${location}`);
   }
 }
